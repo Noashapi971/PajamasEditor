@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RootTree>
+  <game GameCode="101" timePerQuest="00" isPublish="True">
+    <GameSubject>%d7%94%d7%99%d7%a1%d7%98%d7%95%d7%a8%d7%99%d7%94</GameSubject>
+    <questions>
+      <question id="1">
+        <questionText>%d7%9e%d7%99+%d7%94%d7%99%d7%94+%d7%a8%d7%90%d7%a9+%d7%94%d7%9e%d7%9e%d7%a9%d7%9c%d7%94+%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%9f+%d7%a9%d7%9c+%d7%9e%d7%93%d7%99%d7%a0%d7%aa+%d7%99%d7%a9%d7%a8%d7%90%d7%9c%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%97%d7%99%d7%99%d7%9d+%d7%95%d7%99%d7%a6%d7%9e%d7%9f</answer>
+          <answer feedback="True" ansType="text">%d7%93%d7%95%d7%93+%d7%91%d7%9f+%d7%92%d7%95%d7%a8%d7%99%d7%95%d7%9f</answer>
+          <answer feedback="False" ansType="text">%d7%9e%d7%a0%d7%97%d7%9d+%d7%91%d7%92%d7%99%d7%9f</answer>
+          <answer feedback="False" ansType="image">06_07_21-12_23_25_19294.jpg</answer>
+        </answers>
+      </question>
+      <question id="2">
+        <questionText>%d7%9e%d7%99+%d7%94%d7%90%d7%93%d7%9d+%d7%a9%d7%9e%d7%95%d7%a4%d7%99%d7%a2+%d7%91%d7%aa%d7%9e%d7%95%d7%a0%d7%94%3f</questionText>
+        <img>06_07_21-12_25_03_1051.jpg</img>
+        <answers ansNum="5">
+          <answer feedback="False" ansType="text">%d7%9e%d7%a9%d7%94+%d7%93%d7%99%d7%99%d7%9f</answer>
+          <answer feedback="True" ansType="text">%d7%91%d7%a0%d7%99%d7%9e%d7%99%d7%9f+%d7%96%d7%90%d7%91+%d7%94%d7%a8%d7%a6%d7%9c</answer>
+          <answer feedback="False" ansType="text">%d7%9e%d7%a9%d7%94+%d7%a9%d7%a8%d7%aa</answer>
+          <answer feedback="False" ansType="text">%d7%90%d7%94%d7%95%d7%93+%d7%91%d7%a8%d7%a7</answer>
+          <answer feedback="False" ansType="text">%d7%99%d7%92%d7%90%d7%9c+%d7%90%d7%9c%d7%95%d7%9f</answer>
+        </answers>
+      </question>
+      <question id="3">
+        <questionText>%d7%9e%d7%99+%d7%9b%d7%aa%d7%91+%d7%90%d7%aa+%d7%94%d7%94%d7%99%d7%9e%d7%a0%d7%95%d7%9f+%d7%a9%d7%9c+%d7%9e%d7%93%d7%99%d7%a0%d7%aa+%d7%99%d7%a9%d7%a8%d7%90%d7%9c%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="True" ansType="text">%d7%a0%d7%a4%d7%aa%d7%9c%d7%99+%d7%94%d7%a8%d7%a5+%d7%90%d7%99%d7%9e%d7%91%d7%a8</answer>
+          <answer feedback="False" ansType="text">%d7%a2%d7%95%d7%96%d7%99+%d7%97%d7%99%d7%98%d7%9e%d7%9f</answer>
+          <answer feedback="False" ansType="text">%d7%96%d7%90%d7%91+%d7%96%d7%91%d7%95%d7%98%d7%99%d7%a0%d7%a1%d7%a7%d7%99</answer>
+          <answer feedback="False" ansType="text">%d7%90%d7%94%d7%95%d7%93+%d7%9e%d7%a0%d7%95%d7%a8</answer>
+        </answers>
+      </question>
+      <question id="4">
+        <questionText>%d7%91%d7%90%d7%99%d7%96%d7%95+%d7%a9%d7%a0%d7%94+%d7%94%d7%aa%d7%a8%d7%97%d7%a9+%d7%90%d7%a1%d7%95%d7%9f+%d7%94%d7%aa%d7%90%d7%95%d7%9e%d7%99%d7%9d%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">1993</answer>
+          <answer feedback="True" ansType="text">2001</answer>
+          <answer feedback="False" ansType="text">1985</answer>
+          <answer feedback="False" ansType="text">2010</answer>
+        </answers>
+      </question>
+      <question id="5">
+        <questionText>%d7%9e%d7%99+%d7%94%d7%99%d7%94+%d7%94%d7%a8%d7%9e%d7%98%d7%9b%d7%9c+%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%9f+%d7%91%d7%9e%d7%93%d7%99%d7%a0%d7%aa+%d7%99%d7%a9%d7%a8%d7%90%d7%9c%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%90%d7%94%d7%95%d7%93+%d7%91%d7%a8%d7%a7</answer>
+          <answer feedback="False" ansType="text">%d7%99%d7%92%d7%90%d7%9c+%d7%99%d7%93%d7%99%d7%9f</answer>
+          <answer feedback="False" ansType="text">%d7%90%d7%a8%d7%99%d7%90%d7%9c+%d7%a9%d7%a8%d7%95%d7%9f</answer>
+          <answer feedback="True" ansType="text">%d7%99%d7%a2%d7%a7%d7%91+%d7%93%d7%95%d7%a8%d7%99</answer>
+        </answers>
+      </question>
+      <question id="6">
+        <questionText>%d7%91%d7%90%d7%99%d7%96%d7%95+%d7%a9%d7%a0%d7%94+%d7%a0%d7%97%d7%aa%d7%9d+%d7%94%d7%a1%d7%9b%d7%9d+%d7%a9%d7%9c%d7%95%d7%9d+%d7%a2%d7%9d+%d7%9e%d7%a6%d7%a8%d7%99%d7%9d%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="6">
+          <answer feedback="False" ansType="text">1970</answer>
+          <answer feedback="False" ansType="text">1994</answer>
+          <answer feedback="False" ansType="text">1992</answer>
+          <answer feedback="False" ansType="text">1980</answer>
+          <answer feedback="True" ansType="text">1979</answer>
+          <answer feedback="False" ansType="text">1985</answer>
+        </answers>
+      </question>
+      <question id="7">
+        <questionText>%d7%91%d7%90%d7%99%d7%96%d7%95+%d7%a9%d7%a0%d7%94+%d7%94%d7%a9%d7%aa%d7%aa%d7%a4%d7%94+%d7%9c%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%94+%d7%91%d7%94%d7%99%d7%a1%d7%98%d7%95%d7%a8%d7%99%d7%94+%d7%94%d7%a0%d7%91%d7%97%d7%a8%d7%aa+%d7%a9%d7%9c+%d7%9e%d7%93%d7%99%d7%a0%d7%aa+%d7%99%d7%a9%d7%a8%d7%90%d7%9c+%d7%91%d7%9e%d7%a9%d7%97%d7%a7+%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c%2c+%d7%90%d7%a9%d7%a8+%d7%a0%d7%a2%d7%a8%d7%9a+%d7%91%d7%9e%d7%a7%d7%a1%d7%99%d7%a7%d7%95+%d7%a1%d7%99%d7%98%d7%99%2c+%d7%9e%d7%a7%d7%a1%d7%99</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">1966</answer>
+          <answer feedback="True" ansType="text">1970</answer>
+          <answer feedback="False" ansType="text">2002</answer>
+          <answer feedback="False" ansType="text">1982</answer>
+        </answers>
+      </question>
+      <question id="8">
+        <questionText>%d7%91%d7%90%d7%99%d7%96%d7%95+%d7%a9%d7%a0%d7%94+%d7%94%d7%aa%d7%a8%d7%97%d7%a9%d7%94+%d7%9e%d7%9c%d7%97%d7%9e%d7%aa+%d7%a9%d7%a9%d7%aa+%d7%94%d7%99%d7%9e%d7%99%d7%9d%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">1960</answer>
+          <answer feedback="True" ansType="text">1967</answer>
+          <answer feedback="False" ansType="text">1958</answer>
+          <answer feedback="False" ansType="text">1949</answer>
+        </answers>
+      </question>
+      <question id="9">
+        <questionText>%d7%90%d7%99%d7%96%d7%94+%d7%9e%d7%a9%d7%a4%d7%98+%d7%a0%d7%90%d7%9e%d7%a8+%d7%a2%d7%9c+%d7%99%d7%93%d7%99+%d7%91%d7%a0%d7%99%d7%9e%d7%99%d7%9f+%d7%96%d7%90%d7%91+%d7%94%d7%a8%d7%a6%d7%9c%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%90%d7%9c%d7%95%d7%94%d7%99%d7%9d+%d7%a0%d7%aa%d7%9f+%d7%9c%d7%90%d7%93%d7%9d+%d7%a9%d7%aa%d7%99+%d7%90%d7%95%d7%96%d7%a0%d7%99%d7%99%d7%9d+%d7%95%d7%a4%d7%94+%d7%90%d7%97%d7%93+%d7%9b%d7%93%d7%99+%d7%a9%d7%99%d7%a7%d7%a9%d7%99%d7%91+%d7%99%d7%95%d7%aa%d7%a8+%d7%95%d7%99%d7%93%d7%91%d7%a8+%d7%a4%d7%97%d7%95%d7%aa</answer>
+          <answer feedback="False" ansType="text">%d7%a8%d7%a7+%d7%9e%d7%99+%d7%a9%d7%9c%d7%95%d7%a7%d7%97+%d7%a1%d7%99%d7%9b%d7%95%d7%9f+%d7%95%d7%94%d7%95%d7%9c%d7%9a+%d7%a8%d7%97%d7%95%d7%a7%2c+%d7%9e%d7%92%d7%9c%d7%94+%d7%a2%d7%93+%d7%9b%d7%9e%d7%94+%d7%a8%d7%97%d7%95%d7%a7+%d7%94%d7%95%d7%90+%d7%99%d7%9b%d7%95%d7%9c+%d7%9c%d7%94%d7%92%d7%99%d7%a2</answer>
+          <answer feedback="False" ansType="text">%d7%a2%d7%9d+%d7%a9%d7%90%d7%99%d7%a0%d7%95+%d7%99%d7%95%d7%93%d7%a2+%d7%90%d7%aa+%d7%a2%d7%91%d7%a8%d7%95%2c+%d7%94%d7%94%d7%95%d7%95%d7%94+%d7%a9%d7%9c%d7%95+%d7%93%d7%9c+%d7%95%d7%a2%d7%aa%d7%99%d7%93%d7%95+%d7%9c%d7%95%d7%98+%d7%91%d7%a2%d7%a8%d7%a4%d7%9c</answer>
+          <answer feedback="True" ansType="text">%d7%90%d7%9d+%d7%aa%d7%a8%d7%a6%d7%95+%d7%90%d7%99%d7%9f+%d7%96%d7%95+%d7%90%d7%92%d7%93%d7%94</answer>
+        </answers>
+      </question>
+      <question id="10">
+        <questionText>%d7%91%d7%90%d7%99%d7%9c%d7%95+%d7%a9%d7%a0%d7%99%d7%9d+%d7%94%d7%aa%d7%a8%d7%97%d7%a9+%d7%9e%d7%91%d7%a6%d7%a2+%d7%9e%d7%a9%d7%94+%d7%a9%d7%91%d7%95+%d7%a2%d7%9c%d7%95+%d7%99%d7%94%d7%95%d7%93%d7%99+%d7%90%d7%aa%d7%99%d7%95%d7%a4%d7%99%d7%94+%d7%9c%d7%99%d7%a9%d7%a8%d7%90%d7%9c%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="5">
+          <answer feedback="True" ansType="text">1984-1985</answer>
+          <answer feedback="False" ansType="text">1990-1991</answer>
+          <answer feedback="False" ansType="text">1994-1995</answer>
+          <answer feedback="False" ansType="text">1978-1980</answer>
+          <answer feedback="False" ansType="text">2001-2002</answer>
+        </answers>
+      </question>
+      <question id="11">
+        <questionText>%d7%94%d7%99%d7%9b%d7%9f+%d7%94%d7%aa%d7%a7%d7%99%d7%99%d7%9d+%d7%98%d7%a7%d7%a1+%d7%94%d7%94%d7%9b%d7%a8%d7%96%d7%94+%d7%a2%d7%9c+%d7%94%d7%a7%d7%9e%d7%aa+%d7%9e%d7%93%d7%99%d7%a0%d7%aa+%d7%99%d7%a9%d7%a8%d7%90%d7%9c%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%99%d7%a8%d7%95%d7%a9%d7%9c%d7%99%d7%9d</answer>
+          <answer feedback="False" ansType="text">%d7%97%d7%99%d7%a4%d7%94</answer>
+          <answer feedback="True" ansType="text">%d7%aa%d7%9c+%d7%90%d7%91%d7%99%d7%91</answer>
+          <answer feedback="False" ansType="text">%d7%90%d7%99%d7%9c%d7%aa</answer>
+        </answers>
+      </question>
+      <question id="12">
+        <questionText>%d7%9e%d7%99+%d7%94%d7%99%d7%94+%d7%a0%d7%a9%d7%99%d7%90%d7%94+%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%9f+%d7%a9%d7%9c+%d7%9e%d7%93%d7%99%d7%a0%d7%aa+%d7%99%d7%a9%d7%a8%d7%90%d7%9c%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%99%d7%a6%d7%97%d7%a7+%d7%a9%d7%9e%d7%99%d7%a8</answer>
+          <answer feedback="False" ansType="text">%d7%9e%d7%a0%d7%97%d7%9d+%d7%91%d7%92%d7%99%d7%9f</answer>
+          <answer feedback="False" ansType="text">%d7%a2%d7%96%d7%a8+%d7%95%d7%99%d7%a6%d7%9e%d7%9f</answer>
+          <answer feedback="True" ansType="text">%d7%97%d7%99%d7%99%d7%9d+%d7%95%d7%99%d7%a6%d7%9e%d7%9f</answer>
+        </answers>
+      </question>
+      <question id="13">
+        <questionText>%d7%90%d7%99%d7%96%d7%95+%d7%a2%d7%99%d7%a8+%d7%9e%d7%94%d7%a2%d7%a8%d7%99%d7%9d+%d7%94%d7%91%d7%90%d7%95%d7%aa+%d7%a7%d7%a8%d7%95%d7%99%d7%94+%d7%a2%d7%9c+%d7%a9%d7%9e%d7%95+%d7%a9%d7%9c+%d7%a9%d7%9c%d7%99%d7%98+%d7%a8%d7%95%d7%9e%d7%90%d7%99+%d7%a9%d7%a9%d7%9c%d7%98+%d7%91%d7%94+%d7%91%d7%a2%d7%91%d7%a8%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="True" ansType="image">06_07_21-12_42_12_90291.jpg</answer>
+          <answer feedback="False" ansType="image">06_07_21-12_42_12_93082.jpg</answer>
+          <answer feedback="False" ansType="image">06_07_21-12_42_12_96573.jpg</answer>
+          <answer feedback="False" ansType="image">06_07_21-12_42_13_00364.jpg</answer>
+        </answers>
+      </question>
+    </questions>
+  </game>
+  <game GameCode="100" timePerQuest="45" isPublish="True">
+    <GameSubject>מפורסמים</GameSubject>
+    <questions>
+      <question id="1">
+        <questionText>%d7%9e%d7%99+%d7%92%d7%99%d7%9c%d7%9e%d7%94+%d7%90%d7%aa+%d7%93%d7%9e%d7%95%d7%aa%d7%94+%d7%a9%d7%9c+%d7%a8%d7%99%d7%99%d7%a6%e2%80%99%d7%9c+%d7%9e%d7%94%d7%a1%d7%93%d7%a8%d7%94+%d7%97%d7%91%d7%a8%d7%99%d7%9d+%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="5">
+          <answer feedback="True" ansType="text">%d7%92%27%d7%a0%d7%99%d7%a4%d7%a8+%d7%90%d7%a0%d7%99%d7%a1%d7%98%d7%95%d7%9f</answer>
+          <answer feedback="False" ansType="text">%d7%9c%d7%99%d7%a1%d7%94+%d7%a7%d7%95%d7%93%d7%a8%d7%95</answer>
+          <answer feedback="False" ansType="text">%d7%9e%d7%92%d7%99+%d7%95%d7%99%d7%96%d7%9c</answer>
+          <answer feedback="False" ansType="text">%d7%90%d7%a0%d7%92%27%d7%9c%d7%99%d7%a0%d7%94+%d7%92%27%d7%95%d7%9c%d7%99</answer>
+          <answer feedback="False" ansType="text">%d7%a7%d7%95%d7%a8%d7%98%d7%a0%d7%99+%d7%a7%d7%95%d7%a7%d7%a1</answer>
+        </answers>
+      </question>
+      <question id="2">
+        <questionText>%d7%90%d7%99%d7%96%d7%95+%d7%93%d7%9e%d7%95%d7%aa+%d7%93%d7%95%d7%91%d7%91%d7%94+%d7%a2%d7%9c+%d7%99%d7%93%d7%99+%d7%a2%d7%99%d7%93%d7%95+%d7%9e%d7%95%d7%a1%d7%a8%d7%99%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%94%d7%97%d7%9e%d7%95%d7%a8+%d7%9e%d7%a9%d7%a8%d7%a7</answer>
+          <answer feedback="False" ansType="text">%d7%a1%d7%a7%d7%95%d7%95%d7%99%d7%93%d7%95%d7%99%d7%93</answer>
+          <answer feedback="True" ansType="text">%d7%91%d7%95%d7%91+%d7%a1%d7%a4%d7%95%d7%92</answer>
+          <answer feedback="False" ansType="text">%d7%a4%d7%98%d7%a8%d7%99%d7%a7</answer>
+        </answers>
+      </question>
+      <question id="3">
+        <questionText>%d7%9e%d7%99+%d7%a9%d7%a8+%d7%90%d7%aa+%d7%94%d7%a9%d7%99%d7%a8+%d7%94%d7%91%d7%90%3f+%d7%90%d7%a4%d7%a9%d7%a8+%d7%9c%d7%9c%d7%9b%d7%aa+%d7%9c%d7%99%d7%a8%d7%a7%d7%95%d7%9f%2c+%d7%9c%d7%a9%d7%95%d7%98+%d7%a9%d7%9d+%d7%91%d7%a1%d7%99%d7%a8%d7%94%2c+%d7%90%d7%95+%d7%9c%d7%98%d7%99%d7%99%d7%9c+%d7%a2%d7%93+%d7%a1%d7%95%d7%a3+%d7%94%d7%a8%d7%97%d7%95%d7%91+%d7%95%d7%9c%d7%a9%d7%95%d7%91+%d7%91%d7%97%d7%96%d7%a8%d7%94%2c%d7%90%d7%a4%d7%a9%d7%a8+%d7%9c%d7%a7%d7%98%d7%95%d7%a3+%d7%a4%d7%a8%d7%97</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%9e%d7%99%d7%99%d7%99%d7%a7%d7%9c+%d7%92%27%d7%a7%d7%a1%d7%95%d7%9f</answer>
+          <answer feedback="True" ansType="text">%d7%90%d7%a8%d7%99%d7%a7+%d7%90%d7%99%d7%99%d7%a0%d7%a9%d7%98%d7%99%d7%99%d7%9f</answer>
+          <answer feedback="False" ansType="text">%d7%a8%d7%99%d7%98%d7%94</answer>
+          <answer feedback="False" ansType="text">%d7%a9%d7%9c%d7%9e%d7%94+%d7%90%d7%a8%d7%a6%d7%99</answer>
+        </answers>
+      </question>
+      <question id="4">
+        <questionText>%d7%91%d7%90%d7%99%d7%96%d7%94+%d7%a1%d7%a8%d7%98+%d7%9b%d7%99%d7%9b%d7%91%d7%94+%d7%92%d7%9c+%d7%92%d7%93%d7%95%d7%aa%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%98%d7%99%d7%98%d7%90%d7%a0%d7%99%d7%a7</answer>
+          <answer feedback="False" ansType="text">%d7%94%d7%a0%d7%95%d7%a7%d7%9e%d7%99%d7%9d</answer>
+          <answer feedback="False" ansType="text">%d7%94%d7%a6%d7%93+%d7%a9%d7%9c%d7%95+%d7%94%d7%a6%d7%93+%d7%a9%d7%9c%d7%94</answer>
+          <answer feedback="True" ansType="text">%d7%95%d7%95%d7%a0%d7%93%d7%a8+%d7%95%d7%95%d7%9e%d7%9f</answer>
+        </answers>
+      </question>
+      <question id="5">
+        <questionText>%d7%90%d7%99%d7%96%d7%94+%d7%a4%d7%96%d7%9e%d7%95%d7%9f+%d7%9e%d7%94%d7%a9%d7%99%d7%a8%d7%99%d7%9d+%d7%94%d7%91%d7%90%d7%99%d7%9d+%d7%9e%d7%91%d7%95%d7%a6%d7%a2+%d7%a2%d7%9c+%d7%99%d7%93%d7%99+%d7%94%d7%96%d7%9e%d7%a8+%d7%99%d7%a9%d7%99+%d7%a8%d7%99%d7%91%d7%95%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%94%d7%99%d7%aa%d7%94+%d7%96%d7%90%d7%aa+%d7%90%d7%94%d7%91%d7%94+%d7%9e%d7%9e%d7%91%d7%98+%d7%a8%d7%90%d7%a9%d7%95%d7%9f+%d7%9b%d7%9e%d7%95+%d7%91%d7%a1%d7%99%d7%a4%d7%95%d7%a8%d7%99%d7%9d%2c+%d7%90%d7%94%d7%91%d7%94+%d7%9e%d7%9e%d7%91%d7%98+</answer>
+          <answer feedback="False" ansType="text">%d7%9c%d7%90%d7%9f+%d7%a9%d7%9c%d7%90+%d7%aa%d7%9c%d7%9b%d7%99+%d7%a8%d7%a7+%d7%90%d7%9c+%d7%aa%d7%a9%d7%9b%d7%97%d7%99+%d7%99%d7%91%d7%95%d7%90+%d7%94%d7%99%d7%95%d7%9d+%d7%aa%d7%91%d7%99%d7%a0%d7%99+%d7%94%d7%9b%d7%9c+%d7%aa%d7%94%d7%99%d7%99+</answer>
+          <answer feedback="False" ansType="text">%d7%96%d7%94+%d7%91%d7%90+%d7%91%d7%92%d7%9c%d7%99%d7%9d+%d7%95%d7%90%d7%aa+%d7%a9%d7%a7%d7%98%d7%94+%d7%9b%d7%9e%d7%95+%d7%99%d7%9d+%d7%95%d7%91%d7%9c%d7%99%d7%9c%d7%95%d7%aa+%d7%90%d7%aa+%d7%9b%d7%9e%d7%95+%d7%a1%d7%95%d7%a4%d7%94+</answer>
+          <answer feedback="True" ansType="text">%d7%95%d7%90%d7%a0%d7%99+%d7%a8%d7%95%d7%a6%d7%94+%d7%9c%d7%a2%d7%a9%d7%95%d7%aa+%d7%a8%d7%a6%d7%95%d7%a0%d7%9a+%d7%9b%d7%a8%d7%a6%d7%95%d7%a0%d7%9a%2c+%d7%91%d7%90%d7%9e%d7%aa+%d7%95%d7%91%d7%aa%d7%9e%d7%99%d7%9d+%d7%90%d7%97%d7%aa+</answer>
+        </answers>
+      </question>
+      <question id="6">
+        <questionText>%d7%9e%d7%99+%d7%94%d7%99%d7%94+%d7%94%d7%a0%d7%a1%d7%99%d7%9a+%d7%94%d7%9e%d7%93%d7%9c%d7%99%d7%a7+%d7%9e%d7%91%d7%9c+%d7%90%d7%99%d7%99%d7%a8%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="5">
+          <answer feedback="True" ansType="text">%d7%95%d7%95%d7%99%d7%9c+%d7%a1%d7%9e%d7%99%d7%aa</answer>
+          <answer feedback="False" ansType="text">%d7%9b%d7%a8%d7%99%d7%a1+%d7%a8%d7%95%d7%a7</answer>
+          <answer feedback="False" ansType="text">%d7%a4%d7%90%d7%a8%d7%9c+%d7%95%d7%99%d7%9c%d7%99%d7%90%d7%9e%d7%a1</answer>
+          <answer feedback="False" ansType="text">%d7%92%27%d7%99%d7%99%d7%a1%d7%95%d7%9f+%d7%93%d7%95%d7%a0%d7%95%d7%91%d7%9f</answer>
+          <answer feedback="False" ansType="text">%d7%91%d7%a8%d7%90%d7%93+%d7%a4%d7%99%d7%98</answer>
+        </answers>
+      </question>
+      <question id="7">
+        <questionText>%d7%91%d7%90%d7%99%d7%96%d7%94+%d7%a2%d7%95%d7%a0%d7%94+%d7%91%d7%94%d7%99%d7%a9%d7%a8%d7%93%d7%95%d7%aa+%d7%96%d7%9b%d7%aa%d7%94+%d7%a0%d7%a2%d7%9e%d7%94+%d7%a7%d7%a1%d7%a8%d7%99%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%a2%d7%95%d7%a0%d7%94+%d7%a8%d7%91%d7%99%d7%a2%d7%99%d7%aa</answer>
+          <answer feedback="True" ansType="text">%d7%a2%d7%95%d7%a0%d7%94+%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%94</answer>
+          <answer feedback="False" ansType="text">%d7%a2%d7%95%d7%a0%d7%94+%d7%a9%d7%a0%d7%99%d7%99%d7%94</answer>
+          <answer feedback="False" ansType="text">%d7%a2%d7%95%d7%a0%d7%94+%d7%a9%d7%9c%d7%99%d7%a9%d7%99%d7%aa</answer>
+        </answers>
+      </question>
+      <question id="8">
+        <questionText>%d7%9e%d7%99+%d7%9e%d7%94%d7%a9%d7%95%d7%a4%d7%98%d7%99%d7%9d+%d7%94%d7%91%d7%90%d7%99%d7%9d+%d7%94%d7%99%d7%94+%d7%a9%d7%95%d7%a4%d7%98+%d7%91%d7%9e%d7%90%d7%a1%d7%98%d7%a8+%d7%a9%d7%a3%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%9e%d7%95%d7%a9%d7%99%d7%a7+%d7%a8%d7%95%d7%98</answer>
+          <answer feedback="False" ansType="text">%d7%aa%d7%95%d7%9d+%d7%90%d7%91%d7%99%d7%91</answer>
+          <answer feedback="True" ansType="text">%d7%90%d7%99%d7%99%d7%9c+%d7%a9%d7%a0%d7%99</answer>
+          <answer feedback="False" ansType="text">%d7%90%d7%a1%d7%a3+%d7%92%d7%a8%d7%a0%d7%99%d7%98</answer>
+        </answers>
+      </question>
+      <question id="9">
+        <questionText>%d7%9e%d7%99+%d7%94%d7%96%d7%9e%d7%a8%d7%aa+%d7%94%d7%99%d7%a9%d7%a8%d7%90%d7%9c%d7%99%d7%aa+%d7%a9%d7%96%d7%9b%d7%aa%d7%94+%d7%91%d7%90%d7%99%d7%a8%d7%95%d7%99%d7%96%d7%99%d7%95%d7%9f+%d7%91%d7%a9%d7%a0%d7%aa+2018%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="6">
+          <answer feedback="True" ansType="text">%d7%a0%d7%98%d7%a2+%d7%91%d7%a8%d7%96%d7%99%d7%9c%d7%99</answer>
+          <answer feedback="False" ansType="text">%d7%90%d7%95%d7%a8%d7%a0%d7%94+%d7%93%d7%a5</answer>
+          <answer feedback="False" ansType="text">%d7%a9%d7%99%d7%a8%d7%99+%d7%9e%d7%99%d7%9e%d7%95%d7%9f</answer>
+          <answer feedback="False" ansType="text">%d7%a0%d7%95%d7%a2%d7%94+%d7%a7%d7%99%d7%a8%d7%9c</answer>
+          <answer feedback="False" ansType="text">%d7%a7%d7%a8%d7%9f+%d7%a4%d7%9c%d7%a1</answer>
+          <answer feedback="False" ansType="text">%d7%a0%d7%99%d7%a0%d7%98+%d7%98%d7%99%d7%99%d7%91</answer>
+        </answers>
+      </question>
+      <question id="12">
+        <questionText>%d7%9e%d7%99+%d7%9e%d7%94%d7%91%d7%90%d7%95%d7%aa+%d7%90%d7%99%d7%a0%d7%94+%d7%96%d7%9e%d7%a8%d7%aa%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%91%d7%99%d7%95%d7%a0%d7%a1%d7%94</answer>
+          <answer feedback="False" ansType="text">%d7%a2%d7%93%d7%9f+%d7%91%d7%9f-%d7%96%d7%a7%d7%9f</answer>
+          <answer feedback="False" ansType="image">06_07_21-12_00_05_60413.jpg</answer>
+          <answer feedback="True" ansType="image">06_07_21-12_00_05_64004.jpg</answer>
+        </answers>
+      </question>
+      <question id="10">
+        <questionText>%d7%9e%d7%94+%d7%a9%d7%9e%d7%95+%d7%a9%d7%9c+%d7%94%d7%a9%d7%97%d7%a7%d7%9f+%d7%94%d7%9e%d7%95%d7%a4%d7%99%d7%a2+%d7%91%d7%aa%d7%9e%d7%95%d7%a0%d7%94%3f</questionText>
+        <img>06_07_21-11_57_12_7518.jpg</img>
+        <answers ansNum="4">
+          <answer feedback="True" ansType="text">%d7%93%d7%a0%d7%99%d7%90%d7%9c+%d7%a8%d7%93%d7%a7%d7%9c%d7%99%d7%a3</answer>
+          <answer feedback="False" ansType="text">%d7%a8%d7%90%d7%99%d7%99%d7%9f+%d7%a8%d7%99%d7%99%d7%a0%d7%95%d7%9c%d7%93%d7%a1</answer>
+          <answer feedback="False" ansType="text">%d7%91%d7%9f+%d7%90%d7%a4%d7%9c%d7%a7</answer>
+          <answer feedback="False" ansType="text">%d7%90%d7%93%d7%9d+%d7%a1%d7%a0%d7%93%d7%9c%d7%a8</answer>
+        </answers>
+      </question>
+      <question id="14">
+        <questionText>%d7%91%d7%aa%d7%9d</questionText>
+        <img />
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%a7%27%27%d7%a7%d7%94</answer>
+          <answer feedback="True" ansType="text">%27%d7%a7%d7%9b%27%d7%a7%d7%9b%d7%99</answer>
+          <answer feedback="False" ansType="text">%27%d7%a7%d7%9b%27%d7%a7%d7%9b</answer>
+          <answer feedback="False" ansType="text">%d7%a0%d7%9b%d7%95%d7%9f</answer>
+        </answers>
+      </question>
+      <question id="13">
+        <questionText>%d7%9e%d7%99+%d7%9e%d7%94%d7%91%d7%90%d7%99%d7%9d+%d7%94%d7%a9%d7%aa%d7%aa%d7%a3+%d7%91%d7%90%d7%a8%d7%a5+%d7%a0%d7%94%d7%93%d7%a8%d7%aa%3f</questionText>
+        <img>
+        </img>
+        <answers ansNum="4">
+          <answer feedback="False" ansType="text">%d7%90%d7%95%d7%a8%d7%99+%d7%97%d7%96%d7%a7%d7%99%d7%94</answer>
+          <answer feedback="False" ansType="text">%d7%90%d7%93%d7%99%d7%a8+%d7%9e%d7%99%d7%9c%d7%a8</answer>
+          <answer feedback="True" ansType="text">%d7%99%d7%95%d7%91%d7%9c+%d7%a1%d7%9e%d7%95</answer>
+          <answer feedback="False" ansType="text">%d7%90%d7%9e%d7%99%d7%a8%d7%9d+%d7%98%d7%95%d7%91%d7%99%d7%9d</answer>
+        </answers>
+      </question>
+    </questions>
+  </game>
+</RootTree>

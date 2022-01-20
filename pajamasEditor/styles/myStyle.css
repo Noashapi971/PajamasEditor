@@ -1,0 +1,1101 @@
+﻿@font-face {
+    font-family: 'Varela Round';
+    src: url('../fonts/VarelaRound-Regular.ttf');
+}
+
+body {
+    direction: rtl;
+    font-family: 'Varela Round';
+    background-image: url('../images/BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login {
+    background-image: url('../images/loginbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    overflow:hidden
+}
+
+#form1 {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 56px;
+    top: 0px;
+    right: 0px;
+    z-index: 0;
+    position: absolute;
+    margin-top: 0px;
+    height: 720px;
+    margin-top: 50px;
+}
+
+.gameArea {
+    position: absolute;
+    right: 17%;
+    top: 50px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -ms-align-content: center;
+    -webkit-align-content: center;
+    align-content: center;
+    z-index: 0;
+}
+.gameArea1 {
+    width: 80%;
+    right: 10%;
+    top: 50px;
+}
+
+.editGameArea {
+
+    position: absolute;
+    width: 80%;
+    right: 10%;
+    top: 50px;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -ms-align-content: center;
+    -webkit-align-content: center;
+    align-content: center;
+    z-index: 0;
+}
+/*header------------------------------------------------------------------------------------------------*/
+iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 53px);
+}
+
+.hide {
+    display: none;
+}
+.imgBGdefault {
+    height: 566px;
+    width: 1111px;
+    position: absolute;
+    margin-right: 132px;
+    margin-top: 29px;
+    z-index: -1;
+}
+
+
+
+.imgBGedit {
+    height: 566px;
+    width: 1111px;
+    position: absolute;
+    margin-right: 132px;
+    margin-top: 81px;
+    z-index: -1;
+}
+
+header {
+    background-color: #ffe54c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    direction: rtl;
+    height: 52px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 20;
+}
+
+    header > a > p {
+        font-size: 18pt;
+        font-weight: 500;
+        position: relative;
+        top: -10px;
+        color: black;
+        right: 50px;
+        display: inline-block;
+        direction: rtl;
+        font-family: 'Varela Round';
+    }
+
+#logo {
+    top: -1px;
+    display: inline-block;
+    width: 50px;
+    height: 45px;
+    right: 28px;
+    direction: rtl;
+    position: relative;
+}
+
+#howtoplay {
+    width: 600px;
+    height: 350px;
+    padding: 1px 1px;
+    direction: rtl;
+    position: relative;
+}
+
+#about {
+    width: 600px;
+    height: 350px;
+    padding: 1px 1px;
+    direction: rtl;
+    position: relative;
+    left: 125px;
+}
+
+.exit {
+    top: 57px;
+    width: 35px;
+    position: relative;
+    left: -38px;
+}
+
+.telemLink {
+    position: relative;
+    top: 322px;
+    right: 300px;
+    font-family: 'Varela Round';
+    font-size: 13pt;
+    color: darkblue;
+    font-weight: normal;
+    direction: rtl;
+}
+
+#attribute {
+    top: 360px;
+    font-family: 'Varela Round';
+    font-size: 12pt;
+    position: relative;
+    direction: rtl;
+    color: black;
+    right: 244px;
+}
+
+header a {
+    position: absolute;
+}
+
+ul.horizontal {
+    background-color: #F9F18B;
+    direction: rtl;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
+}
+
+    ul.horizontal li {
+        float: left;
+        display: inline;
+        height: 100%;
+        width: 75px;
+        padding: 14px 20px;
+        text-align: center;
+    }
+
+        ul.horizontal li a {
+            vertical-align: middle;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            background-color: inherit;
+            text-align: center;
+            cursor: pointer;
+            padding: 15px 18px;
+            top: 2px;
+        }
+
+
+            ul.horizontal li a:hover:not(.active) {
+                background-color: #fafb8a;
+            }
+
+.active {
+    background-color: mediumspringgreen;
+}
+
+.popUp {
+    position: fixed;
+    top: calc(50% - 181px);
+    left: calc(50% - 404px);
+    z-index: 4;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    height: 800px;
+}
+
+.howtoplay_img {
+    background-image: url('../images/howtoplay.png');
+}
+
+.about_img {
+    background-image: url('../images/credits.png');
+}
+
+
+.bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+/*end header--------------------------------------------------------------------------------------------------*/
+/*כפתורים
+*/
+.mybtn {
+    font-family: 'Varela Round';
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid black;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mybtn.mysubmit {
+    background: transparent;
+    border: 0px;
+    margin: 0px;
+}
+
+.pink {
+    padding: 6px 30px 6px;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+   
+}
+
+.fill::after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.pink::after {
+    background-color: #F286B1;
+}
+
+.pink.button-blocked::after {
+    background-color: lightgray;
+}
+
+.grey {
+    padding: 6px 30px 6px;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.grey::after {
+    background-color: lightgray;
+}
+
+.green {
+    padding: 6px 20px 6px;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.green::after {
+    background-color: mediumspringgreen;
+}
+
+.red {
+    padding: 6px 25px 6px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.red::after {
+    background-color: #f55b5b;
+}
+
+.back {
+    padding: 12px 17px 7px;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    top: 84%;
+    left: -24%;
+}
+
+.back::after {
+    background-color: #74CEC9;
+}
+
+.saveQue {
+    padding: 6px 10px 7px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.saveQue::after {
+    background-color: #74CEC9;
+}
+
+.saveQue.button-blocked::after {
+    background-color: lightgray;
+}
+
+.deleteFiellds {
+    padding: 6px 10px 7px;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.deleteFiellds::after {
+    background-color: #74CEC9;
+}
+
+.deleteFiellds.button-blocked::after {
+    background-color: lightgray;
+}
+
+.save1 {
+    padding: 12px 17px 7px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.save1::after {
+    background-color: #74CEC9;
+}
+
+.save2 {
+    padding: 12px 17px 7px;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.save2::after {
+    background-color: #74CEC9;
+}
+
+.back1 {
+    padding: 12px 17px 7px;
+    margin-right: 262px;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.back1::after {
+    background-color: #74CEC9;
+}
+
+.fill:hover::after {
+    top: 0px;
+    left: 0px;
+}
+    
+
+
+/*טבלה בעמוד הראשי ------------------------------------------------------*/
+.myGridClass th {
+    padding: 4px 2px;
+    color: black;
+    background: #6FC7D8;
+    border-color: dimgrey;
+}
+
+.myGridClass {
+    padding: 4px 2px;
+    color: black;
+/*    background: #B4EFBC;*/
+background-color: white;
+    text-align: center;
+}
+/*טבלה בעמוד שאלות---------------------------------------------------------------*/
+.myGridQClass th {
+    padding: 4px 2px;
+    color: black;
+    background: #74CEC9;
+}
+
+.myGridQClass {
+    color: black;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    border: 1px solid;
+    width: 420px;
+}
+
+/*הDIV של העמוד הגדרות המשחק----------------------------------------------------------*/
+.generalDiv {
+    display: inline-block;
+    height: 58px;
+    width: 259px;
+    margin-right: 785px;
+}
+
+.generalDivinner {
+    display: inline-block;
+    margin-top: 0%;
+    margin-right: 10%;
+    width: 500px;
+    height: 300px;
+}
+
+.charGameCount {
+    font-size: 11px;
+    display: block;
+    margin-top: -55px;
+    margin-right: 248px;
+    width: 30px;
+}
+
+/*כותרת עריכת הגדרות*/
+.pEdit {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.textEdit {
+    display: inline-block;
+    font-size: 15px;
+    height: 35px;
+    width: 302px;
+    font-family: 'Varela Round';
+}
+
+/*מיקום הDIV של עמוד השאלה עצמה----------------------------------------------------*/
+.questiondiv {
+    display: inline-grid;
+    width: 550px;
+    margin-top: -6%;
+    position: relative;
+}
+
+#questiondiv .image-action-container {
+    top: 10px;
+}
+
+.question-img-actions {
+    position: relative;
+}
+
+.question-img-actions .image-action-container {
+    left: 120px;
+}
+.gridDiv {
+    width: 532px;
+    margin-top: 29px;
+    position: absolute;
+    display: inline;
+    right: 536px;
+}
+
+.queHeadline{
+    font-size: 24px;
+}
+
+.title1{
+    font-size: 17px;
+}
+
+.title2 {
+    font-size: 15px;
+    margin-bottom: 1%;
+}
+
+.title3{
+    font-size: 12px;
+}
+
+.radioLimit-toolbar input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.radioLimit-toolbar label {
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 4px 11px;
+    font-family: 'Varela Round';
+    font-size: 12px;
+    border: 2px solid #444;
+    cursor: pointer;
+}
+
+.radioLimit-toolbar input[type="radio"]:checked + label {
+    background-color: #F2E49C;
+    border-color: black;
+}
+
+.radioLimit-toolbar input[type="radio"]:focus + label {
+    border: 2px solid #444;
+}
+
+.radioLimit-toolbar label:hover {
+    background-color: #F2E49C;
+}
+/*---------------------------------------------------------------------------------------*/
+.GameNMtooltip {
+    position: relative;
+    display: inline-block;
+}
+
+    /* Tooltip text */
+    .GameNMtooltip .mytooltiptext {
+        visibility: hidden;
+        width: 200px;
+        background-color: #EABEDF;
+        color: white;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 1;
+        bottom: 121%;
+        left: 36%;
+        margin-left: -100px;
+    }
+
+.GameNMtooltip:hover .mytooltiptext {
+    visibility: visible;
+}
+
+
+.GameNMtooltip .mytooltiptext:hover {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+
+
+
+.mytooltip1 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+    .mytooltip1 .mytooltiptext {
+        visibility: hidden;
+        width: 200px;
+        background-color: #EABEDF;
+        color: white;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 1;
+        bottom: 121%;
+        left: 36%;
+        margin-left: -100px;
+        top: 22px;
+        right: -94px;
+        height: 18px;
+        font-size: 13px;
+    }
+
+    .mytooltip1:hover .mytooltiptext {
+        visibility: visible;
+    }
+
+.mytooltip2 {
+    position: relative;
+    display: inline-block;
+}
+
+    /* Tooltip text */
+    .mytooltip2 .mytooltiptext {
+        visibility: hidden;
+        width: 200px;
+        background-color: #EABEDF;
+        color: white;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 1;
+        bottom: 121%;
+        left: 36%;
+        margin-left: -100px;
+        top: 22px;
+        right: -94px;
+        height: 18px;
+        font-size: 13px;
+    }
+
+    .mytooltip2:hover .mytooltiptext {
+        visibility: visible;
+    }
+
+.mytooltip3 {
+    position: relative;
+    display: inline-block;
+}
+
+    /* Tooltip text */
+    .mytooltip3 .mytooltiptext {
+        visibility: hidden;
+        width: 200px;
+        background-color: #EABEDF;
+        color: white;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 1;
+        bottom: 121%;
+        left: 36%;
+        margin-left: -100px;
+        top: 22px;
+        right: -161px;
+        height: 46px;
+        font-size: 13px;
+    }
+
+    .mytooltip3:hover .mytooltiptext {
+        visibility: visible;
+    }
+
+
+.deletePopUp {
+    position: fixed;
+    position: absolute;
+    background-color: white;
+    color: black;
+    Left: 50%;
+    Top: 50%;
+    width: 30%;
+    border: 0.5px solid #3C4E70;
+    border-radius: 30px 30px;
+    z-index: 9;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 1%;
+}
+
+.Butpopup {
+    border-radius: 25px;
+    background-color: #75C9C7;
+    border: inset;
+    border-color: black;
+    color: white;
+    font-family: 'Varela Round';
+    border-radius: 25px;
+    Width: 70px;
+    Height: 30px;
+    cursor: pointer;
+}
+
+/*toogler----------------------------------------------------------------------*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+    background-color: #75C9C7;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+/*--הגבלת זמן------------------------------------------------------------*/
+
+.radio-toolbar input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 10px 29px;
+    font-family: 'Varela Round';
+    font-size: 14px;
+    border: 2px solid #444;
+    cursor: pointer;
+    width: max-content;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color: #F2E49C;
+    border-color: black;
+}
+
+.radio-toolbar input[type="radio"]:focus + label {
+    border: 2px solid #444;
+}
+
+.radio-toolbar label:hover {
+    background-color: #F2E49C;
+}
+
+/*העלמת פקדי העלאת תמונה*/
+#FileUpload1, #FileUpload2, #FileUpload3, #FileUpload4, #FileUpload5, #FileUpload6, #FileUploadque {
+    visibility: hidden;
+    width: 1px;
+    position: relative;
+}
+
+/*קביעת גודל לתמונות*/
+.image-upload {
+    height: 36px;
+    width: 38px;
+}
+
+#radAns1, #radAns2, #radAns3, #radAns4, #radAns5, #radAns6 {
+    position: relative;
+    cursor: pointer;
+    top: -11px;
+}
+
+.blocked {
+    cursor:no-drop;
+}
+.unblocked {
+    cursor: pointer;
+}
+
+.TextAns {
+    height: 26px;
+    width: 400px;
+    font-family: 'Varela Round';
+    font-size: 13px;
+    text-align: right;
+    resize: none;
+    overflow: hidden;
+}
+
+
+/*עמוד יצירת השאלות ---------------------------------------------------------------------*/
+/*מאגר השאלות*/
+.quesBank {
+    color: black;
+    font: bold 34px;
+}
+
+/*סקרול לטבלאות גרידיו---------------------------------------------------------------------*/
+#scrollGame {
+    overflow-y: auto;
+    height:300px;
+    overflow-x: hidden;
+}
+
+#scrollquestions {
+    overflow-y: auto;
+    height: 400px;
+    width: 443px;
+    margin-top: -16px;
+}
+
+.limit {
+    font-size: 11px;
+}
+
+.charCount {
+    font-size: 11px;
+    display: -webkit-box;
+    margin-right: 260px;
+    width: 30px;
+    margin-top: -20px;
+}
+
+.questionCount {
+    font-size: 11px;
+    display: -webkit-box;
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    margin-right: 283px;
+}
+
+.answer {
+    display: inline-table;
+    position: relative;
+    width: 452px;
+    height: 44px;
+}
+
+#LabelCounter4, #LabelCounter5, #LabelCounter6, #LabelCounter7, #LabelCounter8, #LabelCounter9 {
+    margin-bottom: -3px;
+    margin-right: 391px;
+    margin-top: -20px;
+}
+
+.loginDIV {
+    margin: 504px;
+    width: 278px;
+    padding: 51px;
+    position: fixed;
+    top: calc(50% - 602px);
+    left: calc(50% - 704px);
+}
+#errorMsg {
+    margin-right: 16px;
+}
+
+#loginBtn {
+    padding: 5px 10px;
+    margin: 2px 4px 4px 4px;
+    position: relative;
+    right: 80px;
+}
+
+.image-action {
+    margin-right: 3px;
+    margin-top: -7px;
+}
+
+.image-action-container {
+    position: absolute;
+    left: -82px;
+    top: 0px;
+    width: 100px;
+}
+
+.glass{
+    width: 18px;
+    height:19px;
+}
+.trash{
+    width: 15px;
+    height: 19px;
+}
+/*העלאת תמונה*/
+.hidedelete {
+    display: none;
+    position: relative;
+}
+
+.hidesize {
+    display: none;
+    padding: 4px 4px 4px 4px;
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+.zoomPos {
+    margin: 1% 1% 2% 2%;
+    position: absolute;
+    bottom: 194px;
+    right: 245px;
+}
+.zoomPopUp {
+    height: 250px;
+    width: 350px;
+    position: fixed;
+    top: calc(50% - 125px);
+    left: calc(50% - 175px);
+}
+
+.popUpX {
+    height: 23px;
+    width: 23px;
+    position: fixed;
+    top: calc(50% - 123px);
+    left: calc(50% - -183px);
+    z-index: 1;
+}
+.ImgzoomBG {
+    height: 290px;
+    width: 501px;
+    position: fixed;
+    top: calc(50% - 163px);
+    left: calc(50% - 237px);
+    z-index: -1;
+}
+
+.mainTextBox {
+    font-family: 'Varela Round';
+    font-size: 14px;
+    text-align: right;
+    mix-blend-mode: overlay;
+    resize: none;
+    top: 2px;
+    height: 40px;
+    width: 325px;
+    margin-right: -4px;
+    height: 40px;
+    overflow: auto;
+}
+
+.GameName {
+    font-family: 'Varela Round';
+    font-size: 14px;
+    text-align: right;
+    mix-blend-mode: overlay;
+    resize: none;
+}
+.loginTxt {
+    width: 230px;
+    height: 28px;
+    font-family: 'Varela Round';
+    font-size: 14px;
+}
+
+#gameIframe {
+    position: absolute;
+    top: 53px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.errorMSG {
+    font-size: 14px;
+    color: red;
+    margin-right: 26px;
+}
+
+.loginBtn {
+    background-color: darkturquoise;
+    color: black;
+    font-family: 'Varela Round';
+    font-size: 14px;
+    border-radius: 3px;
+}
